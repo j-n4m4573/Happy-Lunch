@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		5D32037A1C50099900C9DC01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3203791C50099900C9DC01 /* main.m */; };
 		5D32037D1C50099900C9DC01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D32037C1C50099900C9DC01 /* AppDelegate.m */; };
-		5D3203801C50099900C9DC01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D32037F1C50099900C9DC01 /* ViewController.m */; };
 		5D3203831C50099900C9DC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3203811C50099900C9DC01 /* Main.storyboard */; };
 		5D3203851C50099900C9DC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3203841C50099900C9DC01 /* Assets.xcassets */; };
 		5D3203881C50099900C9DC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3203861C50099900C9DC01 /* LaunchScreen.storyboard */; };
+		5D3203911C5009C000C9DC01 /* HappyLunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3203901C5009C000C9DC01 /* HappyLunchVC.m */; };
+		5D3203941C50107400C9DC01 /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3203931C50107400C9DC01 /* FoodTableViewCell.m */; };
+		5D3203971C501DAA00C9DC01 /* DrinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3203961C501DAA00C9DC01 /* DrinkTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		5D3203791C50099900C9DC01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D32037B1C50099900C9DC01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D32037C1C50099900C9DC01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5D32037E1C50099900C9DC01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5D32037F1C50099900C9DC01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5D3203821C50099900C9DC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D3203841C50099900C9DC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D3203871C50099900C9DC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D3203891C50099900C9DC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D32038F1C5009C000C9DC01 /* HappyLunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HappyLunchVC.h; path = ../HappyLunchVC.h; sourceTree = "<group>"; };
+		5D3203901C5009C000C9DC01 /* HappyLunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HappyLunchVC.m; path = ../HappyLunchVC.m; sourceTree = "<group>"; };
+		5D3203921C50107400C9DC01 /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		5D3203931C50107400C9DC01 /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		5D3203951C501DAA00C9DC01 /* DrinkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkTableViewCell.h; sourceTree = "<group>"; };
+		5D3203961C501DAA00C9DC01 /* DrinkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,12 @@
 		5D3203771C50099900C9DC01 /* Happy Lunch */ = {
 			isa = PBXGroup;
 			children = (
-				5D32037B1C50099900C9DC01 /* AppDelegate.h */,
-				5D32037C1C50099900C9DC01 /* AppDelegate.m */,
-				5D32037E1C50099900C9DC01 /* ViewController.h */,
-				5D32037F1C50099900C9DC01 /* ViewController.m */,
+				5D32038F1C5009C000C9DC01 /* HappyLunchVC.h */,
+				5D3203901C5009C000C9DC01 /* HappyLunchVC.m */,
+				5D3203921C50107400C9DC01 /* FoodTableViewCell.h */,
+				5D3203931C50107400C9DC01 /* FoodTableViewCell.m */,
+				5D3203951C501DAA00C9DC01 /* DrinkTableViewCell.h */,
+				5D3203961C501DAA00C9DC01 /* DrinkTableViewCell.m */,
 				5D3203811C50099900C9DC01 /* Main.storyboard */,
 				5D3203841C50099900C9DC01 /* Assets.xcassets */,
 				5D3203861C50099900C9DC01 /* LaunchScreen.storyboard */,
@@ -74,6 +82,8 @@
 		5D3203781C50099900C9DC01 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D32037B1C50099900C9DC01 /* AppDelegate.h */,
+				5D32037C1C50099900C9DC01 /* AppDelegate.m */,
 				5D3203791C50099900C9DC01 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3203801C50099900C9DC01 /* ViewController.m in Sources */,
 				5D32037D1C50099900C9DC01 /* AppDelegate.m in Sources */,
+				5D3203971C501DAA00C9DC01 /* DrinkTableViewCell.m in Sources */,
+				5D3203941C50107400C9DC01 /* FoodTableViewCell.m in Sources */,
 				5D32037A1C50099900C9DC01 /* main.m in Sources */,
+				5D3203911C5009C000C9DC01 /* HappyLunchVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

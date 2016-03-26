@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HappyLunchVC.h
 //  Happy Lunch
 //
 //  Created by Jamar Gibbs on 1/20/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HappyLunchVC : UIViewController
 
 @end
-
